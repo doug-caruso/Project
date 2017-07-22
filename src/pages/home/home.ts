@@ -1,19 +1,14 @@
-import { Evento } from './../evento/evento';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
+  selector: 'home-page',
   templateUrl: 'home.html'
 })
-export class HomePage {
+export class Home {
 
   constructor(public navCtrl: NavController) {
 
   }
 
-
-  openEvent(){
-    this.navCtrl.push(Evento)
-  }
 }

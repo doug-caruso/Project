@@ -14,3 +14,48 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.dark{
+    background-color: #222;
+    color: white;
+
+    ion-item{
+        background-color: #222;
+        color: white;
+    }
+
+    ion-card-content{
+        text-align: center;
+        color: #222;
+
+        ion-card-title, h3, p{
+            color: #222;
+        }
+
+    }
+
+    ion-card{
+        ion-item{
+            background-color: white;
+            color: #222;
+        }
+    }
+}
+
+ion-tabs{
+    background-color: #223;
+    color: white;
+}
+
+
+ion-content{
+    background-color: #222;
+    color: white;
+
+}
+
+
+
+ion-list .listdark{
+    background-color: black
+}
